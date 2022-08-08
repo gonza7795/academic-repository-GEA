@@ -1,0 +1,50 @@
+[
+
+
+
+    {
+        "title":"Electric Systems",
+        "icon" :"fa  fa-4x fa-bolt"
+    },
+
+
+    {
+        "title":"Energy Storage",
+        "icon" :" fa fa-4x fa-battery-quarter"
+    },
+ 
+ 
+
+    {
+        "title":"Sustainability",
+        "icon" :"fa fa-4x fa-recycle"
+    },
+
+
+    {
+        "title":"Climate Change",
+        "icon" :"fa fa-4x fa-thermometer-full"
+    },
+
+    
+
+ 
+
+    {
+        "title":"Industrial Processes",
+        "icon" :"fa fa-4x fa-industry"
+    },
+    {
+        "title":"Optimization",
+        "icon" :"fa fa-4x fa-university"
+    },
+
+    {
+        "title":"Prosumer Markets",
+        "icon" :"fa fa-4x fa-laptop"
+    }
+
+ 
+   
+
+]

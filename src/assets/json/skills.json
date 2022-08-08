@@ -1,0 +1,50 @@
+[
+    {
+        "title":"JavaScript",
+        "icon" :"fab fa-4x  fa-js"
+    },
+ 
+    {
+        "title":"Git Hub",
+        "icon" :"fab fa-4x fa-github-alt"
+    },
+
+    {
+        "title":"GAMS",
+        "icon" :"fa fa-indent fa-4x"
+    },
+
+    
+
+    {
+        "title":"HTML",
+        "icon" :"fab fa-4x fa-html5"
+    },
+
+
+
+    {
+        "title":"CSS3 &SCSS",
+        "icon" :"fab fa-4x fa-css3-alt"
+    },
+    {
+        "title":"Angular",
+        "icon" :"fab fa-4x fa-angular"
+    },
+    {
+        "title":"Spring Boot",
+        "icon" :"fas fa-4x fa-power-off"
+    },
+    {
+        "title":"MySQl",
+        "icon" :"fas fa-4x fa-database"
+    },
+
+    {
+        "title":"TypeScript",
+        "icon" :"fas fa-text-height fa-4x"
+    }
+
+   
+
+]

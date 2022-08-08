@@ -1,0 +1,78 @@
+[
+    {
+        "title": "Scientistic papers",
+        "paragraph": "Scientific papers published in several Journals/Trabajos científicos publicados en diversos Journals",
+        "tools": [
+            {
+                "title": "Elsevier"
+            },
+            {
+                "title": "IEEE"
+            },
+            {
+                "title": "Nature"
+            },
+            {
+                "title": "Other Journals"
+            }
+        ],
+        "img": "./assets/img/scientistic.gif",
+        "github": "https://github.com/BraianS/MangasTech"
+    },
+
+
+    {
+        "title":"Full Stack Web Developer",
+        "paragraph":"Build your own Blog Angular and Spring Boot/ Crea tu página con Angular y Spring Boot",
+        "tools": [
+            {
+                "title":"Spring Boot"
+            },
+            {
+                "title":"Mysql"
+            },
+       
+            {
+                "title":"Angular"
+            },
+       
+        
+       
+            {
+                "title":"TS"
+            },
+            {
+                "title":"Java"
+            }
+        ],
+        "img":"./assets/img/fulls stack.gif",
+        "github": "https://portfolio-gea.web.app/"
+    },
+    
+    {
+        "title": "Other Works/Otros Trabajos",
+        "paragraph": "Works, books, and chapters / Trabajos, libros y capítulos",
+        "tools": [
+            {
+                "title": "Congresses"
+            },
+            {
+                "title": "Symposiums"
+            },
+            {
+                "title": "Engineering Books"
+            }
+        ],
+        "img": "./assets/img/books.gif",
+        "github": "https://github.com/BraianS/ang-rss-reader"
+    }
+    
+
+
+   
+
+
+
+
+
+]
