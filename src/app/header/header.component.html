@@ -5,9 +5,10 @@
   <nav>
     <ul class="nav nav--hightlighted" [ngClass]="{'nav__open':isNavOpen}">
       <li class="nav__brand"><a href="#"> Gonzalo <span class="gray">Alvarez</span>  </a></li>
-      <li class="nav__item"><a (click)="scroll('about')">About/Acerca</a></li>
-      <li class="nav__item"><a (click)="scroll('skill')" #skill>Skills</a></li>
-      <li class="nav__item"><a (click)="scroll('portfolio')" #portfolio>Projects/Proyectos</a></li>
+      <li class="nav__item"><a (click)="scroll('about')">About / Acerca</a></li>
+      <li class="nav__item"><a (click)="scroll('education')">Skills</a></li>
+      
+      <li class="nav__item"><a (click)="scroll('portfolio')" #portfolio>Pulications / Publicaciones</a></li>
       <li class="nav__item"><a (click)="scroll('contato')" #contato>Contact/Contacto</a></li>
     </ul>
   </nav>
