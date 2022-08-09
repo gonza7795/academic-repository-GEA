@@ -5,32 +5,61 @@
   <div class="underline"></div>
   <div class="container" >
     <div class="grid"  [@scrollAnimation]="state">
-      <figure class="photo photo--wrapper" *ngFor="let portfolio of projectList">
-        <img class="photo__img" alt="projeto" [src]="portfolio.img"  >
-        
-        <div class="overlay">
-          <h4 class="overlay__title">{{portfolio.title}}</h4>
-          <p class="overlay__paragraph">{{portfolio.paragraph}}</p>
-         
-          <ul class="list">
-            <li class="list__item" *ngFor="let tools of portfolio.tools"><span class="list__tag">{{tools.title}}</span></li>
-          </ul>
-         <div class="overlay__icon">
-         
-          <a class="btn btn-light" href="{{portfolio.github}}" role="button">Link</a> 
-     <!--      <button type="button" href="https://github.com/BraianS/fullstack-spring-boot-and-angular-blog" class="btn btn-light">See more/Ver más</button> -->
-          
-
-         <!-- <a class="fab fa-github fa-4x" href="{{portfolio.github}}"> </a> -->
-            
-          
-         </div>
-        </div>
-      </figure>
+     
 
     
 
       
     </div>
   </div>
+
+
+
+
+  <ul class="list" [@scrollAnimation]="state">
+    <li  *ngFor="let paper of papers">
+ 
+
+
+
+
+  <div class="row" >
+  
+  
+    <div class="col-lg-1" >
+        <img src="{{paper.img}}" class="img-fluid" id="logoutn">
+    </div>
+
+    <div class="col-lg-9" >
+   
+       <p class="text-light"> {{paper.ref}} </p> 
+       
+     
+
+      
+
+        <a href="{{paper.link}}"><button type="button" class="btn btn-light">Explore / Explorar</button></a>
+    
+    </div>
+
+
+
+</div>
+
+
+
+</li>
+
+</ul>
+
+
+
+
+
+
+
+
+
+
+
 </section>

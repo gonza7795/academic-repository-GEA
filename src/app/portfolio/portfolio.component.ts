@@ -16,10 +16,17 @@ export class PortfolioComponent extends ScrollAnimationComponent implements OnIn
   }
 
   projectList:any = [];
+  papers:any = [];
 
   ngOnInit() {
    this.http.get("./assets/json/projetos.json").subscribe((portfolio) => {
      this.projectList = portfolio;
    });
-  }
+  
+
+
+  this.http.get("./assets/json/papers.json").subscribe(papers => {
+    this.papers = papers;
+  });
+}
 }
