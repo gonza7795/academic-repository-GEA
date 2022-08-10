@@ -20,8 +20,98 @@
     {
         "ref":"Alvarez G.E. (2021) A multi-objective model for the analysis of investments to achieve an electricity cleaner production. The case of the Argentinean system. Environmental Progress & Sustainable Energy. e13713. https://doi.org/ 10.1002/ep.13713",
         "link" :"https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/ep.13713",
-        "img" :"https://aiche.onlinelibrary.wiley.com/doi/epdf/10.1002/ep.13713"
+        "img" :"https://i.ibb.co/bBYxfj3/Environmental-Progress-Sustainable-Energy.png"
+    },
+
+
+    {
+        "ref":"Alvarez G. E. (2021). Solving the Unit Commitment and Economic Dispatch Problems by Applying a Novel Weighted Decomposition Method, Computers and Chemical Engineering. 150 107337. https://doi.org/10.1016/j.compchemeng.2021.107337",
+        "link" :"https://www.sciencedirect.com/science/article/pii/S0098135421001150?via%3Dihub",
+        "img" :"https://i.ibb.co/6XM1Rfx/computers-and-chemical.png"
+    },
+
+    {
+        "ref":"Alvarez, G. E. (2021). A multi-objective formulation of improving flexibility in the operation of electric power systems: Application to mitigation measures during the coronavirus pandemic. Energy, 227, 120471. https://doi.org/10.1016/j.energy.2021.120471",
+        "link" :"https://www.sciencedirect.com/science/article/pii/S0098135421001150?via%3Dihub",
+        "img" :"https://i.ibb.co/FDdw3zM/energy.png"
+    },
+
+
+    {
+        "ref":"Alvarez, G.E., Sarli, J.L., (2021). Mathematical model to control the Argentine Energy System during the COVID - 19 pandemic. IEEE Lat. Am. Trans. Vol. 19 No. 6 (2021): Special Issue on Fighting Against COVID-19, páginas 874-883. https://latamt.ieeer9.org/index.php/transactions/article/view/4199",
+        "link" :"https://latamt.ieeer9.org/index.php/transactions/article/view/4199",
+        "img" :"https://i.ibb.co/6y2jC2m/ieee-latin.png"
+    },
+
+
+    {
+        "ref":"Alvarez, G.E. (2020) An Optimization Model for Operations of Large scale Hydro Power Plants. IEEE Latin America Transactions, vol. 18, no. 09, pp. 1631-1638, doi: 10.1109/TLA.2020.9381806",
+        "link" :"https://ieeexplore.ieee.org/document/9381806",
+        "img" :"https://i.ibb.co/6y2jC2m/ieee-latin.png"
+    },
+
+
+    {
+        "ref":"Alvarez, G.E., (2020). Optimization analysis for hydro pumped storage and natural gas accumulation technologies in the Argentine Energy System. Journal of Energy Storage. 31, 101646. https://doi.org/10.1016/j.est.2020.101646",
+        "link" :"https://www.sciencedirect.com/science/article/pii/S2352152X20314833?via%3Dihub",
+        "img" :"https://i.ibb.co/BHpSk53/energy-storage.png"
+    },
+
+
+    {
+        "ref":"Alvarez, G. E. (2020). Operation of pumped storage hydropower plants through optimization for power systems, Energy. 202 , 117797. https://doi.org/10.1016/j.energy.2020.117797",
+        "link" :"https://www.sciencedirect.com/science/article/pii/S036054422030904X?via%3Dihub",
+        "img" :"https://i.ibb.co/FDdw3zM/energy.png"
+    },
+
+    
+    {
+        "ref":"Alvarez, G. E and J. L. Sarli. (2020). Optimization of Electricity Distribution in Latin America by Using Embedded Systems, IEEE Latin America Transactions, vol. 18, no. 02, pp. 351–359. DOI: 10.1109/TLA.2020.9085290",
+        "link" :"https://ieeexplore.ieee.org/document/9085290",
+        "img" :"https://i.ibb.co/6y2jC2m/ieee-latin.png"
+    },
+
+
+    
+    {
+        "ref":"Alvarez, G. E. (2020). Integrated scheduling from a diversity of sources applied to the Argentine electric power and natural gas systems. Computers and Chemical Engineering, 134, 17. https://doi.org/10.1016/j.compchemeng.2019.106691",
+        "link" :"https://doi.org/10.1016/j.compchemeng.2019.106691",
+        "img" :"https://i.ibb.co/6XM1Rfx/computers-and-chemical.png"
+    },
+
+
+    {
+        "ref":"Alvarez, G. E., Marcovecchio, M. G., & Aguirre, P. A. (2020). Optimization of the integration among traditional fossil fuels, clean energies, renewable sources, and energy storages: An MILP model for the coupled electric power, hydraulic, and natural gas systems. Computers & Industrial Engineering, 139, 106141. https://doi.org/10.1016/j.cie.2019.106141",
+        "link" :"https://doi.org/10.1016/j.cie.2019.106141",
+        "img" :"https://i.ibb.co/WvgwCDm/computers-and-industrial.png"
+    },
+
+
+    {
+        "ref":"Alvarez, G., Marcovecchio, M., & Aguirre, P. (2018). Security constrained unit commitment scheduling: A new MILP formulation for solving transmission constraints. Computers and Chemical Engineering, 115, 455–473. https://doi.org/10.1016/j.compchemeng.2018.05.001",
+        "link" :"https://doi.org/10.1016/j.compchemeng.2018.05.001",
+        "img" :"https://i.ibb.co/6XM1Rfx/computers-and-chemical.png"
+    },
+
+
+    {
+        "ref":"Alvarez, G., Marcovecchio, M., & Aguirre, P. (2018). Hydrothermal Unit Commitment with Deterministic Optimization : Generation and Transmission Including Pumped Storage Units. Electronic Journal of Informatics and Operations Research of SADIO - Special Issue Dedicated to JAIIO 2017, 17(1), 92–115. https://doi.org/ISSN 1514-6774",
+        "link" :"https://publicaciones.sadio.org.ar/index.php/EJS/article/view/48/",
+        "img" :"https://i.ibb.co/gvtfY03/sadio.png"
+    },
+
+
+
+    
+    {
+        "ref":"Alvarez, G., Marcovecchio, M., & Aguirre, P. (2018). Security-Constrained Unit Commitment Problem including thermal and pumped storage units: An MILP formulation by the application of linear approximations techniques. Electric Power Systems Research, 154, 67–74. ISSN: 0378-7796. https://doi.org/10.1016/j.epsr.2017.07.027",
+        "link" :"https://doi.org/10.1016/j.epsr.2017.07.027",
+        "img" :"https://i.ibb.co/HKhxLnb/electric-power-system.png"
     }
+
+
+
+
 
 ]
 

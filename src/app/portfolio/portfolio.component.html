@@ -1,6 +1,11 @@
+
 <section class="portfolio" id="portfolio" >
+
+  <div id="fondo_azul">
   <div class="portfolio__heading" [@scrollAnimation]="state">
-    <h2 class="portfolio__title">Works & Projects / Trabajos y Proyectos</h2>
+    
+
+    <h2 class="text-light"><span class="gray">  <img src="assets/img/Scientific_journal_icon.svg " width="100"  > Referred Articles </span>/ Artículos publicados</h2>
   </div>
   <div class="underline"></div>
   <div class="container" >
@@ -27,30 +32,183 @@
   
   
     <div class="col-lg-1" >
-        <img src="{{paper.img}}" class="img-fluid" id="logoutn">
+        <img src="{{paper.img}}" class="img-fluid" id="logopaper">
     </div>
 
+  
+
     <div class="col-lg-9" >
+
+
+      <div class="justify">
    
        <p class="text-light"> {{paper.ref}} </p> 
+
        
+      </div>
+       
+       
+
+       <div class="margin-botton">
+     
      
 
-      
-
-        <a href="{{paper.link}}"><button type="button" class="btn btn-light">Explore / Explorar</button></a>
+        <a href="{{paper.link}}"><button type="button" class="btn btn-light -lg"  >See more / Ver más</button></a>
     
     </div>
 
+  </div>
 
+</div>
 
+</li>
+</ul>
 </div>
 
 
 
-</li>
 
+
+
+<div id="fondo_blanco">
+  <div class="portfolio__heading" [@scrollAnimation]="state">
+    
+
+    <h2 class=""><span class="gray">  <img src="assets/img/book-icon.svg " width="100"  > Books </span>/ Libros</h2>
+  </div>
+  <div class="underline"></div>
+  <div class="container" >
+    <div class="grid"  [@scrollAnimation]="state">
+     
+
+    
+
+      
+    </div>
+  </div>
+
+
+
+
+  <ul class="list" [@scrollAnimation]="state">
+    <li  *ngFor="let book of books">
+ 
+
+
+
+
+  <div class="row" >
+  
+  
+    <div class="col-lg-2" >
+        <img src="{{book.img}}" class="img-fluid" id="logobook">
+    </div>
+
+  
+
+    <div class="col-lg-9" >
+
+
+      <div class="justify">
+   
+       <p class=""> {{book.ref}} </p> 
+
+       
+      </div>
+       
+       
+
+       <div class="margin-botton-book">
+     
+     
+
+        <a href="{{book.link}}"><button type="button" class="btn btn-secondary"  >See more / Ver más</button></a>
+    
+    </div>
+
+  </div>
+
+</div>
+
+</li>
 </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div id="fondo_azul">
+  <div class="portfolio__heading" [@scrollAnimation]="state">
+    
+
+    <h2 class="text-light"><span class="gray">  <img src="assets/img/Scientific_journal_icon.svg " width="100"  > Referred Articles </span>/ Artículos publicados</h2>
+  </div>
+  <div class="underline"></div>
+  <div class="container" >
+    <div class="grid"  [@scrollAnimation]="state">
+     
+
+    
+
+      
+    </div>
+  </div>
+
+
+
+
+  <ul class="list" [@scrollAnimation]="state">
+    <li  *ngFor="let paper of papers">
+ 
+
+
+
+
+  <div class="row" >
+  
+  
+    <div class="col-lg-1" >
+        <img src="{{paper.img}}" class="img-fluid" id="logopaper">
+    </div>
+
+  
+
+    <div class="col-lg-9" >
+
+
+      <div class="justify">
+   
+       <p class="text-light"> {{paper.ref}} </p> 
+
+       
+      </div>
+       
+       
+
+       <div class="margin-botton">
+     
+     
+
+        <a href="{{paper.link}}"><button type="button" class="btn btn-light -lg"  >See more / Ver más</button></a>
+    
+    </div>
+
+  </div>
+
+</div>
+
+</li>
+</ul>
+</div>
+
+
+
 
 
 

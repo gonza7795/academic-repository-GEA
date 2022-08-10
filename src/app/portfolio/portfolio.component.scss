@@ -4,7 +4,7 @@
 .portfolio {
   @include flex-container(column);
   padding: 3rem 0 3rem 0;
-  background-color:  #abb5b9;
+  background-color:   $white;
 
   &__heading {
     align-self: center;
@@ -13,7 +13,7 @@
 
   &__title {
     font-size: $font-size-h2;
-    color: $gray21;
+    color:  $white;
   }
 }
 
@@ -41,7 +41,7 @@
   }
 
   &:hover .overlay {
-    background-color: $overlay;
+    background-color:  $white;
     opacity: 1;
   }
 }
@@ -78,7 +78,7 @@
 
   &__item {
     margin: 3px;
-    background-color: $blue;
+    background-color: $white;
     border-radius: 20px;
   }
 
@@ -132,3 +132,64 @@
     @include grid-template(1, 1fr);
   }
 }
+
+
+
+.margin-botton {
+  margin-bottom: 4%;
+
+} 
+
+.justify {
+  text-align: justify;
+
+} 
+
+
+#fondo_azul{
+  background-color:  #316bb3;
+}
+
+
+
+#logopaper {
+        
+  width: 300%;
+  border-radius: 5%;
+  box-shadow: 4px 4px 4px grey;
+  left: 3%;
+  top: 300px;
+}
+
+
+#sombra {
+        
+ 
+  
+  box-shadow: 4px 4px 4px grey;
+  
+}
+
+
+
+#logobook{
+        
+  width: 150px;
+  border-radius: 5%;
+  box-shadow: 4px 4px 4px grey;
+  left: 3%;
+  top: 300px;
+}
+
+
+
+#fondo_blanco{
+  background-color:  $white;
+}
+
+
+.margin-botton-book {
+  margin-bottom: 15%;
+
+} 
+
