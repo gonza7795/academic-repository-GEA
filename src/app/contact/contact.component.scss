@@ -4,8 +4,8 @@
 .contato {
   @include flex-container(column);
   padding: 50px;
-  background-color: #316bb3;
-  color: $white;
+  background-color: #f4f7fa;
+  color: #0d0d0e;
 
   &__title {
     margin-bottom: 40px;
@@ -71,6 +71,12 @@ img{
   #cvimg{
     width: 150px;
   }
+
+
+  #fondo_blanco{
+    background-color:  $white;
+  }
+  
 }
 
 
