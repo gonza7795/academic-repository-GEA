@@ -5,7 +5,7 @@
   <div class="portfolio__heading" [@scrollAnimation]="state">
     
 
-    <h2 class="text-light"><span class="gray">  <img src="assets/img/Scientific_journal_icon.svg " width="100"  > Referred Articles </span>/ Artículos publicados</h2>
+    <h2 class="text-light"><span class="gray">  <img src="assets/img/Scientific_journal_icon.svg " width="90"  > Referred Articles </span>/ Artículos publicados</h2>
   </div>
   <div class="underline"></div>
   <div class="container" >
@@ -74,7 +74,7 @@
   <div class="portfolio__heading" [@scrollAnimation]="state">
     
 
-    <h2 class=""><span class="gray">  <img src="assets/img/book-icon.svg " width="100"  > Books </span>/ Libros</h2>
+    <h2 class=""><span class="gray">  <img src="assets/img/book-icon.svg " width="40"  > Books </span>/ Libros</h2>
   </div>
   <div class="underline"></div>
   <div class="container" >
@@ -106,7 +106,7 @@
 
   
 
-    <div class="col-lg-9" >
+    <div class="col-lg-8" >
 
 
       <div class="justify">
@@ -147,7 +147,7 @@
   <div class="portfolio__heading" [@scrollAnimation]="state">
     
 
-    <h2 class="text-light"><span class="gray">  <img src="assets/img/Scientific_journal_icon.svg " width="100"  > Referred Articles </span>/ Artículos publicados</h2>
+    <h2 class="text-light"><span class="gray">  <img src="assets/img/conference.svg " width="150"  > Conference Papers </span>/ Trabajos en Congresos y Simposios</h2>
   </div>
   <div class="underline"></div>
   <div class="container" >
@@ -164,7 +164,7 @@
 
 
   <ul class="list" [@scrollAnimation]="state">
-    <li  *ngFor="let paper of papers">
+    <li  *ngFor="let congreso of congresos">
  
 
 
@@ -174,7 +174,7 @@
   
   
     <div class="col-lg-1" >
-        <img src="{{paper.img}}" class="img-fluid" id="logopaper">
+        <img src="{{congreso.img}}" class="img-fluid" id="logopaper">
     </div>
 
   
@@ -184,7 +184,7 @@
 
       <div class="justify">
    
-       <p class="text-light"> {{paper.ref}} </p> 
+       <p class="text-light"> {{congreso.ref}} </p> 
 
        
       </div>
@@ -195,7 +195,7 @@
      
      
 
-        <a href="{{paper.link}}"><button type="button" class="btn btn-light -lg"  >See more / Ver más</button></a>
+        <a href="{{congreso.link}}"><button type="button" class="btn btn-light -lg"  >See more / Ver más</button></a>
     
     </div>
 
@@ -205,6 +205,8 @@
 
 </li>
 </ul>
+
+
 </div>
 
 

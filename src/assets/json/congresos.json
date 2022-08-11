@@ -1,0 +1,79 @@
+[
+
+    {
+        "ref":"Gonzalo E. Alvarez. (2021): “Manejo de las incertidumbres en la generación eólica. Mejora de la eficiencia energética en frente al aumento de fuentes renovables”. Actas del X Seminario Nacional Virtual: Energía y su uso eficiente / compilación de Luis Hernández. - 1a ed. - Ciudad Autónoma de Buenos Aires: Universidad Tecnológica Nacional, 2021. Archivo Digital: descarga y online   ISBN 978-950-42-0208-0",
+        "link" :"https://rtyc.utn.edu.ar/index.php/ajea/article/view/883",
+        "img" :"https://i.ibb.co/8bgPBWX/seminario-energia-2021.png"
+    },
+
+
+
+    {
+        "ref":"Gonzalo Alvarez, María Julia Blas (2021): “An hybrid simulation-optimization solution for improving the safety of power grids under blackout condition”. THE 2021 INTERNATIONAL CONFERENCE ON DECISION AID SCIENCES AND APPLICATIONS (DASA'21). Sakheer – Kingdom of Bahrain (7th - 8 th December 2021)",
+        "link" :"https://ieeexplore.ieee.org/document/9682393",
+        "img" :"https://i.ibb.co/jkrj2VK/dasa2021.png"
+    },
+
+
+    {
+        "ref":"Gonzalo Alvarez, María Julia Blas (2021): “Optimization of electric power systems considering the environmental impact and uncertainties”. The 3rd International Conference on Sustainability and Resilience (SRC'21). Sakheer – Kingdom of Bahrain (15th - 16th November 2021)",
+        "link" :"https://ieeexplore.ieee.org/document/9667979",
+        "img" :"https://i.ibb.co/jkrj2VK/dasa2021.png"
+    },
+
+    {
+        "ref":"Abarca R, Chavez H, Lismayes A, Caro-Ruiz C, Alvarez GE. A REFLEX Algebraic Reserve Constraint Model. 2020 IEEE PES Transm. Distrib. Conf. 2020 IEEE PES Transmission & Distribution Conference and Exhibition - Latin America (T&D LA), IEEE; 2020, p. 1–6. Montevideo, Uruguay (September 2020).  DOI: 10.1109/TDLA47668.2020.9326215",
+        "link" :"https://ieeexplore.ieee.org/document/9326215",
+        "img" :"https://i.ibb.co/JcwD8FC/TD-LA-2020.png"
+    },
+
+    {
+        "ref":"Gonzalo Alvarez, María Julia Blas (2020): “Enhancing of the operational decisions in Electric Power Systems under blackouts”. THE 2020 INTERNATIONAL CONFERENCE ON DECISION AID SCIENCES AND APPLICATIONS (DASA'20). Sakheer – Kingdom of Bahrain (8th - 9 th November 2020). DOI: 10.1109/DASA51403.2020.9317285 ",
+        "link" :"https://ieeexplore.ieee.org/document/9317285",
+        "img" :"https://i.ibb.co/jkrj2VK/dasa2021.png"
+    },
+
+
+
+    {
+        "ref":"Gonzalo E. Alvarez. (2020): “Generación hidroeléctrica con centrales de acumulación por bombeo. Mejora de la eficiencia energética y respuesta al aumento de fuentes renovables”. Actas de Jornadas y eventos Académicos de UTN. Num. 9 . Actas del IX Seminario Nacional Virtual Energía y su uso eficiente. Buenos Aires: edUTecNe. ISBN: 978-987-4998-55-2. Páginas: 44-45. ",
+        "link" :"https://rtyc.utn.edu.ar/index.php/ajea/article/view/814",
+        "img" :"https://rtyc.utn.edu.ar/public/journals/2/cover_issue_29_es_ES.png"
+    },
+
+
+
+
+    {
+        "ref":" Gonzalo Alvarez, Marian Marcovecchio, Pio Aguirre. “Optimization of Scheduling for Hydro-thermal Power Generation and Transmission Including Pumped Storage Systems”. 46º Jornadas Argentinas de Informática JAIIO - Simposio Latinoamericano de Investigación de Operaciones e Inteligencia Artificial /Simposio Argentino de Investigación Operativa. 4 al 8 de Septiembre 2017. Córdoba, Argentina.  ",
+        "link" :"https://www.researchgate.net/publication/319529438_Optimization_of_Scheduling_for_Hydro-thermal_Power_Generation_and_Transmission_Including_Pumped_Storage_Systems ",
+        "img" :"https://i.ibb.co/BzSKWGn/46jaiio.png "
+    },
+
+
+    {
+        "ref":" Gonzalo Alvarez, Marian Marcovecchio, Pio Aguirre. “Modelo Mixto Entero Lineal para la resolución de manera integral de los problemas generación de electricidad con unidades térmicas, incluyendo restricciones de seguridad y transporte de gas natural”. IX Congreso Argentino de Ingeniería Química. 6 al 9 de Agosto 2017. Bahía Blanca, Argentina.  ",
+        "link" :" https://www.researchgate.net/publication/319331525_Modelo_Mixto_Entero_Lineal_Para_La_Resolucion_De_Manera_Integral_De_Los_Problemas_Generacion_De_Electricidad_Con_Unidades_Termicas_Incluyendo_Restricciones_De_Seguridad_Y_Transporte_De_Gas_Natural ",
+        "img" :"https://i.ibb.co/T2gnZvn/CAIQ2017.png "
+    },
+
+
+    
+    {
+        "ref":" Gonzalo E. Alvarez, Marian G. Marcovecchio, Pío A. Aguirre (2016): Unit Commitment Scheduling Including Transmission Constraints: a MILP Formulation. 26th European Symposium on Computer Aided Process. Enginering, Portorož, Slovenia (12th - 15 th June 2016). DOI: 10.1016/B978-0-444-63428-3.50364-7 ",
+        "link" :"https://www.sciencedirect.com/science/article/abs/pii/B9780444634283503647 ",
+        "img" :"https://ars.els-cdn.com/content/image/1-s2.0-C20131154755-cov150h.gif "
+    },
+
+
+
+
+    {
+        "ref":" Gonzalo Alvarez, Marian Marcovecchio, Pio Aguirre. Evaluación de Modelos AC y DC para Problemas de Asignación de Unidades Generadoras Incorporando Restricciones de Transmisión en Sistemas Eléctricos: Formulaciones MILP y MINLP. 45º Jornadas Argentinas de Informática JAIIO - 5º Simposio Argentino de Informática Industrial. 6 al 9 de Septiembre 2016. Buenos Aires, Argentina ",
+        "link" :"https://www.researchgate.net/publication/314244700_Evaluacion_de_Modelos_AC_y_DC_para_Problemas_de_Asignacion_de_Unidades_Generadoras_Incorporando_Restricciones_de_Transmision_en_Sistemas_Electricos_Formulaciones_MILP_y_MINLP7 ",
+        "img" :"https://i.ibb.co/LZkNdrc/45-jaiio.png "
+    }
+
+
+
+]
