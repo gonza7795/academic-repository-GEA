@@ -1,13 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import {  ChangeDetectorRef, Component, ElementRef, OnInit } from '@angular/core';
+import { scrollAnimation } from '../shared/animations';
+import { ScrollAnimationComponent } from '../shared/scroll-animation.component';
 
 @Component({
   selector: 'about',
   templateUrl: './about.component.html',
-  styleUrls: ['./about.component.scss']
-})
-export class AboutComponent implements OnInit {
+  styleUrls: ['./about.component.scss'],
+  animations: [
+    scrollAnimation
+  ]
 
-  constructor() { }
+})
+export class AboutComponent extends ScrollAnimationComponent implements OnInit {
+
+  constructor(_el:ElementRef, cdRef:ChangeDetectorRef) { super(_el, cdRef)}
   title: string = "Gonzalo Alvarez";
   paragraph: string = 
   

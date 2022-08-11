@@ -1,11 +1,14 @@
 <div class="about" id="about" #about>
   <div class="about__details">
     <h1 class="about__title">{{title}}</h1>
-    <h2><span class="gray"> About me </span>/ Acerca de mí</h2>
-    <p class="about__paragraph">{{paragraph}}</p>
+    <h2 [@scrollAnimation]="state"><span class="gray"> About me </span>/ Acerca de mí</h2>
+
+
+    
+    <p class="about__paragraph" [@scrollAnimation]="state" >{{paragraph}}</p>
   
   </div>
-  <img class="about__img" src="assets/img/profilePicture.jpg" alt="perfil">
+  <img [@scrollAnimation]="state" class="about__img" src="assets/img/profilePicture.jpg" alt="perfil">
 </div>
 
 

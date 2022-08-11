@@ -7,7 +7,7 @@
 @import "variables";
 
 .about {
-  height: 50vh;
+  height: 100vh;
   @include flex-container(row);
   background-color: #316bb3;
 
@@ -86,7 +86,7 @@ h1, h3 {
     #logoutn {
         
         width: 100%;
-        border-radius: 10%;
+        border-radius: 80%;
         box-shadow: 5px 5px 5px grey;
         left: 3%;
         top: 300px;
@@ -100,8 +100,8 @@ h1, h3 {
 @media (max-width: 575px) {
     #logoutn {
         
-        width: 100%;
-        border-radius: 10%;
+        width: 50%;
+        border-radius: 80%;
         box-shadow: 5px 5px 5px grey;
         left: 33%;
         top: 600px;
