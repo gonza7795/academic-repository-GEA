@@ -1,195 +1,81 @@
-@import "mixins";
-@import "variables";
 
-.portfolio {
-  @include flex-container(column);
-  padding: 3rem 0 3rem 0;
-  background-color:   $white;
-
-  &__heading {
-    align-self: center;
-    text-align: center;
-  }
-
-  &__title {
-    font-size: $font-size-h2;
-    color:  $white;
-  }
-}
-
-.photo {
-  $this: &;
-  position: relative;
-  width: 100%;
-
-  &__img {
-    width: 100%;
-    height: 300px;
-    background-repeat: no-repeat;
-    background-position: center;
-    object-fit: cover;
-    transition: 1s;
-    transform: scale(1);
-  }
-
-  &:hover #{$this}__img {
-    transform: scale(1.2);
-  }
-
-  &--wrapper {
-    overflow: hidden;
-  }
-
-  &:hover .overlay {
-    background-color:  $white;
-    opacity: 1;
-  }
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  transition: 1s;
-  box-sizing: border-box;
-  padding: 10px;
-  opacity: 0;
-  color: $white;
-
-  &__title {
-    color: $white;
-    margin-top: 2em;
-  }
-
-  &__paragraph {
-    color: $white;
-  }
-
-  &__icon {
-    @include flex-container(row);
-    margin-top: 1.5em;
-  }
-}
-
-.list {
-  @include flex-container(row);
-
-  &__item {
-    margin: 3px;
-    background-color: $white;
-    border-radius: 20px;
-  }
-
-  &__tag {
-    padding: 10px;
-  }
-}
-
-.grid {
-  @include grid-template(3, 1fr);
-}
-
-.container {
-  width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@include mq(sm,min) {
-  .container {
-    max-width: 540px;
-  }
-}
-
-@include mq(md,min) {
-  .container {
-    max-width: 720px;
-  }
-}
-
-@include mq(lg,min) {
-  .container {
-    max-width: 960px;
-  }
-}
-
-@include mq(xl,min) {
-  .container {
-    max-width: 1140px;
-  }
-}
-
-@include mq-between(md,lg) {
-  .grid {
-    @include grid-template(2, 1fr);
-  }
-}
-
-@include mq(md,max) {
-  .grid {
-    @include grid-template(1, 1fr);
-  }
-}
-
-
-
-.margin-botton {
-  margin-bottom: 4%;
+.row {
+  padding: 20px;
 
 } 
+
+div {background: #316bb3;}
+
+
+
+
+h1, h3 {
+  display: inline;
+}
+
+
+
+
+@media (min-width: 992px) {
+  #logo {
+      
+      width: 100%;
+      border-radius: 10%;
+      box-shadow: 5px 5px 5px grey;
+      left: 3%;
+      top: 300px;
+  }
+}
+
+
+@media  (max-width: 991px) and (min-width: 576px)  {
+  
+  #logo {
+      
+      width: 80%;
+      border-radius: 10%;
+      box-shadow: 5px 5px 5px grey;
+      left: 3%;
+      top: 300px;
+  }
+
+}
+
+
+
+
+@media (max-width: 575px) {
+  #logo {
+      
+    width: 80%;
+      border-radius: 10%;
+      box-shadow: 5px 5px 5px grey;
+      left: 33%;
+      top: 600px;
+  }
+}
+
+
+
+
+
+
+
+.centrado {
+  text-align: center;
+
+} 
+
+
+
+#fondo_blanco {
+      
+  background-color: white;
+}
+
 
 .justify {
   text-align: justify;
-
-} 
-
-
-#fondo_azul{
-  background-color:  #316bb3;
-}
-
-
-
-#logopaper {
-        
-  width: 300%;
-  border-radius: 5%;
-  box-shadow: 4px 4px 4px grey;
-  left: 3%;
-  top: 300px;
-}
-
-
-#sombra {
-        
- 
-  
-  box-shadow: 4px 4px 4px grey;
   
 }
-
-
-
-#logobook{
-        
-  width: 150px;
-  border-radius: 5%;
-  box-shadow: 4px 4px 4px grey;
-  left: 3%;
-  top: 300px;
-}
-
-
-
-#fondo_blanco{
-  background-color:  $white;
-}
-
-
-.margin-botton-book {
-  margin-bottom: 15%;
-
-} 
 

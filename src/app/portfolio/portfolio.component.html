@@ -1,11 +1,21 @@
 
-<section class="portfolio" id="portfolio" >
+<section class="portfolio" id="portfolio">
+
+
+  
 
   <div id="fondo_azul">
-  <div class="portfolio__heading" [@scrollAnimation]="state">
+  <div >
+
+
+    <div class="centrado">
+
+     
     
 
-    <h2 class="text-light"><span class="gray">  <img src="assets/img/Scientific_journal_icon.svg " width="90"  > Referred Articles </span>/ Artículos publicados</h2>
+ <h2 class="text-light "><span class="gray">  <img src="assets/img/Scientific_journal_icon.svg " width="90" > Referred Articles </span>/ Artículos publicados</h2>
+  </div>
+  
   </div>
   <div class="underline"></div>
   <div class="container" >
@@ -32,12 +42,12 @@
   
   
     <div class="col-lg-1" >
-        <img src="{{paper.img}}" class="img-fluid" id="logopaper">
+        <img src="{{paper.img}}" class="img-fluid" id="logo">
     </div>
 
   
 
-    <div class="col-lg-9" >
+    <div class="col-lg-9 col-xl-9" >
 
 
       <div class="justify">
@@ -71,10 +81,10 @@
 
 
 <div id="fondo_blanco">
-  <div class="portfolio__heading" [@scrollAnimation]="state">
+  <div  class="centrado">
     
 
-    <h2 class=""><span class="gray">  <img src="assets/img/book-icon.svg " width="40"  > Books </span>/ Libros</h2>
+    <h2 class="" id="fondo_blanco"><span class="gray">  <img src="assets/img/book-icon.svg " width="40"  > Books </span>/ Libros</h2>
   </div>
   <div class="underline"></div>
   <div class="container" >
@@ -90,35 +100,35 @@
 
 
 
-  <ul class="list" [@scrollAnimation]="state">
+  <ul class="list" [@scrollAnimation]="state" id="fondo_blanco">
     <li  *ngFor="let book of books">
  
 
 
 
 
-  <div class="row" >
+  <div class="row" id="fondo_blanco">
   
   
-    <div class="col-lg-2" >
-        <img src="{{book.img}}" class="img-fluid" id="logobook">
+    <div class=" col-lg-2 col-xl-2" id="fondo_blanco">
+        <img src="{{book.img}}" class="img-fluid" id="logo">
     </div>
 
   
 
-    <div class="col-lg-8" >
+    <div class=" col-lg-10 col-xl-10" id="fondo_blanco" >
 
 
-      <div class="justify">
+      <div class="justify" id="fondo_blanco">
    
-       <p class=""> {{book.ref}} </p> 
+       <p class="col-10 col-lg-10 col-xl-10"> {{book.ref}} </p> 
 
        
       </div>
        
        
 
-       <div class="margin-botton-book">
+       <div class="margin-botton-book" id="fondo_blanco">
      
      
 
@@ -144,7 +154,7 @@
 
 
 <div id="fondo_azul">
-  <div class="portfolio__heading" [@scrollAnimation]="state">
+  <div  class="centrado" [@scrollAnimation]="state">
     
 
     <h2 class="text-light"><span class="gray">  <img src="assets/img/conference.svg " width="150"  > Conference Papers </span>/ Trabajos en Congresos y Simposios</h2>
@@ -174,7 +184,7 @@
   
   
     <div class="col-lg-1" >
-        <img src="{{congreso.img}}" class="img-fluid" id="logopaper">
+        <img src="{{congreso.img}}" class="img-fluid" id="logo">
     </div>
 
   

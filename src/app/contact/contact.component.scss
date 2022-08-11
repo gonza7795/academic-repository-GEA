@@ -4,7 +4,7 @@
 .contato {
   @include flex-container(column);
   padding: 50px;
-  background-color: #f4f7fa;
+  background-color:white;
   color: #0d0d0e;
 
   &__title {
@@ -73,11 +73,19 @@ img{
   }
 
 
-  #fondo_blanco{
-    background-color:  $white;
-  }
-  
+
 }
+
+
+
+#fondo_blanco {
+      
+  background-color: white;
+}
+
+
+
+
 
 
 
